@@ -1,0 +1,331 @@
+2023/11/03 10:54:14 [notice] 1#1: using the "epoll" event method
+2023/11/03 10:54:14 [notice] 1#1: nginx/1.24.0
+2023/11/03 10:54:14 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/03 10:54:14 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2023/11/03 10:54:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/03 10:54:14 [notice] 1#1: start worker processes
+2023/11/03 10:54:14 [notice] 1#1: start worker process 28
+2023/11/03 10:54:14 [notice] 1#1: start worker process 29
+2023/11/03 10:54:14 [notice] 1#1: start worker process 30
+2023/11/03 10:54:14 [notice] 1#1: start worker process 31
+2023/11/03 10:55:22 [warn] 29#29: *38 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.23.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/03 10:55:24 [warn] 29#29: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.23.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/03 10:56:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/03 10:56:43 [notice] 29#29: gracefully shutting down
+2023/11/03 10:56:43 [notice] 28#28: gracefully shutting down
+2023/11/03 10:56:43 [notice] 30#30: gracefully shutting down
+2023/11/03 10:56:43 [notice] 31#31: gracefully shutting down
+2023/11/03 10:56:43 [notice] 31#31: exiting
+2023/11/03 10:56:43 [notice] 29#29: exiting
+2023/11/03 10:56:43 [notice] 28#28: exiting
+2023/11/03 10:56:43 [notice] 30#30: exiting
+2023/11/03 10:56:43 [notice] 30#30: exit
+2023/11/03 10:56:43 [notice] 31#31: exit
+2023/11/03 10:56:43 [notice] 29#29: exit
+2023/11/03 10:56:43 [notice] 28#28: exit
+2023/11/03 10:56:44 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/11/03 10:56:44 [notice] 1#1: worker process 28 exited with code 0
+2023/11/03 10:56:44 [notice] 1#1: worker process 29 exited with code 0
+2023/11/03 10:56:44 [notice] 1#1: worker process 30 exited with code 0
+2023/11/03 10:56:44 [notice] 1#1: worker process 31 exited with code 0
+2023/11/03 10:56:44 [notice] 1#1: exit
+2023/11/03 10:56:53 [notice] 1#1: using the "epoll" event method
+2023/11/03 10:56:53 [notice] 1#1: nginx/1.24.0
+2023/11/03 10:56:53 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/03 10:56:53 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2023/11/03 10:56:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/03 10:56:53 [notice] 1#1: start worker processes
+2023/11/03 10:56:53 [notice] 1#1: start worker process 29
+2023/11/03 10:56:53 [notice] 1#1: start worker process 30
+2023/11/03 10:56:53 [notice] 1#1: start worker process 31
+2023/11/03 10:56:53 [notice] 1#1: start worker process 32
+2023/11/03 10:57:34 [warn] 32#32: *10 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.24.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/03 10:57:36 [warn] 30#30: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.24.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/03 10:59:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/03 10:59:38 [notice] 30#30: gracefully shutting down
+2023/11/03 10:59:38 [notice] 31#31: gracefully shutting down
+2023/11/03 10:59:38 [notice] 32#32: gracefully shutting down
+2023/11/03 10:59:38 [notice] 29#29: gracefully shutting down
+2023/11/03 10:59:38 [notice] 30#30: exiting
+2023/11/03 10:59:38 [notice] 30#30: exit
+2023/11/03 10:59:38 [notice] 31#31: exiting
+2023/11/03 10:59:38 [notice] 32#32: exiting
+2023/11/03 10:59:38 [notice] 32#32: exit
+2023/11/03 10:59:38 [notice] 29#29: exiting
+2023/11/03 10:59:38 [notice] 29#29: exit
+2023/11/03 10:59:38 [notice] 31#31: exit
+2023/11/03 10:59:38 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/03 10:59:38 [notice] 1#1: worker process 30 exited with code 0
+2023/11/03 10:59:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/03 10:59:38 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/11/03 10:59:38 [notice] 1#1: worker process 32 exited with code 0
+2023/11/03 10:59:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/03 10:59:38 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/11/03 10:59:38 [notice] 1#1: worker process 29 exited with code 0
+2023/11/03 10:59:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/03 10:59:38 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/03 10:59:38 [notice] 1#1: worker process 31 exited with code 0
+2023/11/03 10:59:38 [notice] 1#1: exit
+2023/11/05 06:44:52 [notice] 1#1: using the "epoll" event method
+2023/11/05 06:44:52 [notice] 1#1: nginx/1.24.0
+2023/11/05 06:44:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/05 06:44:52 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2023/11/05 06:44:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/05 06:44:52 [notice] 1#1: start worker processes
+2023/11/05 06:44:52 [notice] 1#1: start worker process 29
+2023/11/05 06:44:52 [notice] 1#1: start worker process 30
+2023/11/05 06:44:52 [notice] 1#1: start worker process 31
+2023/11/05 06:44:52 [notice] 1#1: start worker process 32
+2023/11/05 08:03:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/05 08:03:41 [notice] 30#30: gracefully shutting down
+2023/11/05 08:03:41 [notice] 30#30: exiting
+2023/11/05 08:03:41 [notice] 29#29: gracefully shutting down
+2023/11/05 08:03:41 [notice] 31#31: gracefully shutting down
+2023/11/05 08:03:41 [notice] 32#32: gracefully shutting down
+2023/11/05 08:03:41 [notice] 30#30: exit
+2023/11/05 08:03:41 [notice] 29#29: exiting
+2023/11/05 08:03:41 [notice] 31#31: exiting
+2023/11/05 08:03:41 [notice] 31#31: exit
+2023/11/05 08:03:41 [notice] 32#32: exiting
+2023/11/05 08:03:41 [notice] 32#32: exit
+2023/11/05 08:03:41 [notice] 29#29: exit
+2023/11/05 08:03:42 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/05 08:03:42 [notice] 1#1: worker process 30 exited with code 0
+2023/11/05 08:03:42 [notice] 1#1: worker process 31 exited with code 0
+2023/11/05 08:03:42 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:03:42 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/05 08:03:42 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/11/05 08:03:42 [notice] 1#1: worker process 32 exited with code 0
+2023/11/05 08:03:42 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:03:42 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/11/05 08:03:42 [notice] 1#1: worker process 29 exited with code 0
+2023/11/05 08:03:42 [notice] 1#1: exit
+2023/11/05 08:03:42 [notice] 1#1: using the "epoll" event method
+2023/11/05 08:03:42 [notice] 1#1: nginx/1.24.0
+2023/11/05 08:03:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/05 08:03:42 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2023/11/05 08:03:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/05 08:03:42 [notice] 1#1: start worker processes
+2023/11/05 08:03:42 [notice] 1#1: start worker process 28
+2023/11/05 08:03:42 [notice] 1#1: start worker process 29
+2023/11/05 08:03:42 [notice] 1#1: start worker process 30
+2023/11/05 08:03:42 [notice] 1#1: start worker process 31
+2023/11/05 08:33:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/05 08:33:20 [notice] 29#29: gracefully shutting down
+2023/11/05 08:33:20 [notice] 28#28: gracefully shutting down
+2023/11/05 08:33:20 [notice] 31#31: gracefully shutting down
+2023/11/05 08:33:20 [notice] 30#30: gracefully shutting down
+2023/11/05 08:33:20 [notice] 30#30: exiting
+2023/11/05 08:33:20 [notice] 29#29: exiting
+2023/11/05 08:33:20 [notice] 29#29: exit
+2023/11/05 08:33:20 [notice] 28#28: exiting
+2023/11/05 08:33:20 [notice] 31#31: exiting
+2023/11/05 08:33:20 [notice] 30#30: exit
+2023/11/05 08:33:20 [notice] 28#28: exit
+2023/11/05 08:33:20 [notice] 31#31: exit
+2023/11/05 08:33:20 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/11/05 08:33:20 [notice] 1#1: worker process 29 exited with code 0
+2023/11/05 08:33:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:33:20 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/11/05 08:33:20 [notice] 1#1: worker process 28 exited with code 0
+2023/11/05 08:33:20 [notice] 1#1: worker process 31 exited with code 0
+2023/11/05 08:33:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:33:20 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/05 08:33:20 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/05 08:33:20 [notice] 1#1: worker process 30 exited with code 0
+2023/11/05 08:33:20 [notice] 1#1: exit
+2023/11/05 08:33:21 [notice] 1#1: using the "epoll" event method
+2023/11/05 08:33:21 [notice] 1#1: nginx/1.24.0
+2023/11/05 08:33:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/05 08:33:21 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2023/11/05 08:33:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/05 08:33:21 [notice] 1#1: start worker processes
+2023/11/05 08:33:21 [notice] 1#1: start worker process 28
+2023/11/05 08:33:21 [notice] 1#1: start worker process 29
+2023/11/05 08:33:21 [notice] 1#1: start worker process 30
+2023/11/05 08:33:21 [notice] 1#1: start worker process 31
+2023/11/05 08:33:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/05 08:33:43 [notice] 28#28: gracefully shutting down
+2023/11/05 08:33:43 [notice] 28#28: exiting
+2023/11/05 08:33:43 [notice] 30#30: gracefully shutting down
+2023/11/05 08:33:43 [notice] 30#30: exiting
+2023/11/05 08:33:43 [notice] 29#29: gracefully shutting down
+2023/11/05 08:33:43 [notice] 29#29: exiting
+2023/11/05 08:33:43 [notice] 31#31: gracefully shutting down
+2023/11/05 08:33:43 [notice] 31#31: exiting
+2023/11/05 08:33:43 [notice] 28#28: exit
+2023/11/05 08:33:43 [notice] 30#30: exit
+2023/11/05 08:33:43 [notice] 29#29: exit
+2023/11/05 08:33:43 [notice] 31#31: exit
+2023/11/05 08:33:43 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/11/05 08:33:43 [notice] 1#1: worker process 28 exited with code 0
+2023/11/05 08:33:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:33:43 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/05 08:33:43 [notice] 1#1: worker process 31 exited with code 0
+2023/11/05 08:33:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:33:43 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/05 08:33:43 [notice] 1#1: worker process 30 exited with code 0
+2023/11/05 08:33:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:33:43 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/11/05 08:33:43 [notice] 1#1: worker process 29 exited with code 0
+2023/11/05 08:33:43 [notice] 1#1: exit
+2023/11/05 08:33:50 [notice] 1#1: using the "epoll" event method
+2023/11/05 08:33:50 [notice] 1#1: nginx/1.24.0
+2023/11/05 08:33:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/05 08:33:50 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2023/11/05 08:33:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/05 08:33:50 [notice] 1#1: start worker processes
+2023/11/05 08:33:50 [notice] 1#1: start worker process 28
+2023/11/05 08:33:50 [notice] 1#1: start worker process 29
+2023/11/05 08:33:50 [notice] 1#1: start worker process 30
+2023/11/05 08:33:50 [notice] 1#1: start worker process 31
+2023/11/05 08:35:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/05 08:35:57 [notice] 31#31: gracefully shutting down
+2023/11/05 08:35:57 [notice] 30#30: gracefully shutting down
+2023/11/05 08:35:57 [notice] 30#30: exiting
+2023/11/05 08:35:57 [notice] 29#29: gracefully shutting down
+2023/11/05 08:35:57 [notice] 28#28: gracefully shutting down
+2023/11/05 08:35:57 [notice] 31#31: exiting
+2023/11/05 08:35:57 [notice] 30#30: exit
+2023/11/05 08:35:57 [notice] 29#29: exiting
+2023/11/05 08:35:57 [notice] 29#29: exit
+2023/11/05 08:35:57 [notice] 28#28: exiting
+2023/11/05 08:35:57 [notice] 31#31: exit
+2023/11/05 08:35:57 [notice] 28#28: exit
+2023/11/05 08:35:57 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/05 08:35:57 [notice] 1#1: worker process 30 exited with code 0
+2023/11/05 08:35:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:35:57 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/11/05 08:35:57 [notice] 1#1: worker process 29 exited with code 0
+2023/11/05 08:35:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:35:57 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/11/05 08:35:57 [notice] 1#1: worker process 28 exited with code 0
+2023/11/05 08:35:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:35:57 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/05 08:35:57 [notice] 1#1: worker process 31 exited with code 0
+2023/11/05 08:35:57 [notice] 1#1: exit
+2023/11/05 08:36:46 [notice] 1#1: using the "epoll" event method
+2023/11/05 08:36:46 [notice] 1#1: nginx/1.24.0
+2023/11/05 08:36:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/05 08:36:46 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2023/11/05 08:36:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/05 08:36:46 [notice] 1#1: start worker processes
+2023/11/05 08:36:46 [notice] 1#1: start worker process 30
+2023/11/05 08:36:46 [notice] 1#1: start worker process 31
+2023/11/05 08:36:46 [notice] 1#1: start worker process 32
+2023/11/05 08:36:46 [notice] 1#1: start worker process 33
+2023/11/05 08:39:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/05 08:39:34 [notice] 33#33: gracefully shutting down
+2023/11/05 08:39:34 [notice] 33#33: exiting
+2023/11/05 08:39:34 [notice] 30#30: gracefully shutting down
+2023/11/05 08:39:34 [notice] 31#31: gracefully shutting down
+2023/11/05 08:39:34 [notice] 32#32: gracefully shutting down
+2023/11/05 08:39:34 [notice] 33#33: exit
+2023/11/05 08:39:34 [notice] 30#30: exiting
+2023/11/05 08:39:34 [notice] 31#31: exiting
+2023/11/05 08:39:34 [notice] 32#32: exiting
+2023/11/05 08:39:34 [notice] 32#32: exit
+2023/11/05 08:39:34 [notice] 30#30: exit
+2023/11/05 08:39:34 [notice] 31#31: exit
+2023/11/05 08:39:34 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/05 08:39:34 [notice] 1#1: worker process 31 exited with code 0
+2023/11/05 08:39:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:39:34 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/11/05 08:39:34 [notice] 1#1: worker process 32 exited with code 0
+2023/11/05 08:39:34 [notice] 1#1: worker process 33 exited with code 0
+2023/11/05 08:39:34 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/11/05 08:39:34 [notice] 1#1: worker process 30 exited with code 0
+2023/11/05 08:39:34 [notice] 1#1: exit
+2023/11/05 08:39:39 [notice] 1#1: using the "epoll" event method
+2023/11/05 08:39:39 [notice] 1#1: nginx/1.24.0
+2023/11/05 08:39:39 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/05 08:39:39 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2023/11/05 08:39:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/05 08:39:39 [notice] 1#1: start worker processes
+2023/11/05 08:39:39 [notice] 1#1: start worker process 29
+2023/11/05 08:39:39 [notice] 1#1: start worker process 30
+2023/11/05 08:39:39 [notice] 1#1: start worker process 31
+2023/11/05 08:39:39 [notice] 1#1: start worker process 32
+2023/11/05 08:43:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/05 08:43:50 [notice] 30#30: gracefully shutting down
+2023/11/05 08:43:50 [notice] 32#32: gracefully shutting down
+2023/11/05 08:43:50 [notice] 29#29: gracefully shutting down
+2023/11/05 08:43:50 [notice] 29#29: exiting
+2023/11/05 08:43:50 [notice] 31#31: gracefully shutting down
+2023/11/05 08:43:50 [notice] 30#30: exiting
+2023/11/05 08:43:50 [notice] 30#30: exit
+2023/11/05 08:43:50 [notice] 32#32: exiting
+2023/11/05 08:43:50 [notice] 29#29: exit
+2023/11/05 08:43:50 [notice] 31#31: exiting
+2023/11/05 08:43:50 [notice] 32#32: exit
+2023/11/05 08:43:50 [notice] 31#31: exit
+2023/11/05 08:43:50 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/11/05 08:43:50 [notice] 1#1: worker process 29 exited with code 0
+2023/11/05 08:43:50 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:43:50 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/11/05 08:43:50 [notice] 1#1: worker process 32 exited with code 0
+2023/11/05 08:43:50 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 08:43:50 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/05 08:43:50 [notice] 1#1: worker process 31 exited with code 0
+2023/11/05 08:43:50 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/05 08:43:50 [notice] 1#1: worker process 30 exited with code 0
+2023/11/05 08:43:50 [notice] 1#1: exit
+2023/11/05 08:43:56 [notice] 1#1: using the "epoll" event method
+2023/11/05 08:43:56 [notice] 1#1: nginx/1.24.0
+2023/11/05 08:43:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/05 08:43:56 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2023/11/05 08:43:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/05 08:43:56 [notice] 1#1: start worker processes
+2023/11/05 08:43:56 [notice] 1#1: start worker process 28
+2023/11/05 08:43:56 [notice] 1#1: start worker process 29
+2023/11/05 08:43:56 [notice] 1#1: start worker process 30
+2023/11/05 08:43:56 [notice] 1#1: start worker process 31
+2023/11/05 09:03:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/11/05 09:03:57 [notice] 29#29: gracefully shutting down
+2023/11/05 09:03:57 [notice] 30#30: gracefully shutting down
+2023/11/05 09:03:57 [notice] 28#28: gracefully shutting down
+2023/11/05 09:03:57 [notice] 31#31: gracefully shutting down
+2023/11/05 09:03:57 [notice] 29#29: exiting
+2023/11/05 09:03:57 [notice] 30#30: exiting
+2023/11/05 09:03:57 [notice] 28#28: exiting
+2023/11/05 09:03:57 [notice] 31#31: exiting
+2023/11/05 09:03:57 [notice] 29#29: exit
+2023/11/05 09:03:57 [notice] 30#30: exit
+2023/11/05 09:03:57 [notice] 28#28: exit
+2023/11/05 09:03:57 [notice] 31#31: exit
+2023/11/05 09:03:57 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/11/05 09:03:57 [notice] 1#1: worker process 29 exited with code 0
+2023/11/05 09:03:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 09:03:57 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/11/05 09:03:57 [notice] 1#1: worker process 30 exited with code 0
+2023/11/05 09:03:57 [notice] 1#1: signal 29 (SIGIO) received
+2023/11/05 09:03:57 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/11/05 09:03:57 [notice] 1#1: worker process 28 exited with code 0
+2023/11/05 09:03:57 [notice] 1#1: worker process 31 exited with code 0
+2023/11/05 09:03:57 [notice] 1#1: exit
+2023/11/05 09:04:03 [notice] 1#1: using the "epoll" event method
+2023/11/05 09:04:03 [notice] 1#1: nginx/1.24.0
+2023/11/05 09:04:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/11/05 09:04:03 [notice] 1#1: OS: Linux 5.10.104-linuxkit
+2023/11/05 09:04:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/11/05 09:04:03 [notice] 1#1: start worker processes
+2023/11/05 09:04:03 [notice] 1#1: start worker process 29
+2023/11/05 09:04:03 [notice] 1#1: start worker process 30
+2023/11/05 09:04:03 [notice] 1#1: start worker process 31
+2023/11/05 09:04:03 [notice] 1#1: start worker process 32
+2023/11/05 09:06:42 [warn] 30#30: *182 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:06:44 [warn] 30#30: *202 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:06:50 [warn] 31#31: *262 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:06:54 [warn] 31#31: *604 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:06:59 [warn] 32#32: *608 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:07:04 [warn] 29#29: *1121 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:07:09 [warn] 29#29: *1123 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:07:14 [warn] 30#30: *1654 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:07:19 [warn] 30#30: *1658 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:07:23 [warn] 32#32: *2096 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:07:27 [warn] 32#32: *2101 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:07:31 [warn] 29#29: *2479 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:07:36 [warn] 29#29: *2487 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:07:42 [warn] 30#30: *2986 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:07:48 [warn] 31#31: *2988 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
+2023/11/05 09:07:51 [warn] 31#31: *3344 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.30.0.1, server: , request: "POST / HTTP/1.1", host: "host.docker.internal"
